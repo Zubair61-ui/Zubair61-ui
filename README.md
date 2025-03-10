@@ -1,7 +1,3 @@
-Here’s a refined GitHub README for you as a Cloud Engineer:  
-
----
-
 ## Hi there 👋  
 
 I'm Zubair Hashmat, a passionate Cloud Engineer with a strong foundation in AWS, Linux system administration, and DevOps principles.  
