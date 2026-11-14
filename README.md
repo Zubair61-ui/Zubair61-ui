@@ -1,4 +1,53 @@
+# Hi, I'm Zubair Hashmat.
 
+**Junior Data Analyst** | [City, Country] | [Open to opportunities / currently at ...]
+
+I turn messy data into clear answers. My projects start with a business question, move through careful cleaning and analysis, and end with findings a non-technical reader can act on.
+
+[Optional one line about your background, for example: "[Degree] graduate, [University]. I'm interested in [e-commerce / telecom / economics] analytics."]
+
+## Skills
+
+| Area | Tools |
+|---|---|
+| Data analysis | Python (pandas, NumPy, Matplotlib, SciPy), Excel (pivot tables, profiling) |
+| Databases | SQL, PostgreSQL |
+| Visualisation | Power BI (DAX, data modelling), Matplotlib |
+| Workflow | Google Colab, Jupyter, Git and GitHub |
+| Practices | Business requirements documents, data cleaning logs, documenting limitations |
+
+## Featured Projects
+
+### [Customer Churn Analysis](https://github.com/[username]/telco-customer-churn-sql-powerbi)
+*Excel, PostgreSQL, Power BI*
+
+Who leaves a telecom provider, and why? Analysed 7,043 customers: 26.5% churned, taking 30.5% of monthly revenue with them. One segment (month-to-month, fiber optic, electronic check) is 19% of customers but 42% of churners. Built a 5-page dashboard covering the customer profile, drivers, stated reasons and priority segments.
+
+### [World Economic Indicators Analysis](https://github.com/[username]/world-economic-indicators-analysis)
+*Python (pandas, NumPy, Matplotlib), Google Colab*
+
+What do World Bank and UN data say about growth, development and life expectancy across about 190 countries? Found that population growth and GDP growth rarely overlap (only Jordan and Lebanon appear in both top-15 lists), that South Asia and Sub-Saharan Africa gained the most in HDI since 2000 (mostly catch-up from low starting points), and that a small set of overlapping indicators tracks life expectancy.
+
+<!--
+ADD LATER, when the project is finished and published:
+
+### [Olist E-Commerce Analysis](https://github.com/[username]/olist-ecommerce-analysis)
+*[Tools]*
+
+[One or two sentences with your real result.]
+-->
+
+## How I Work
+
+- I state the business question first, then pick the method.
+- I check my numbers (row counts, reconciliations) before I report them.
+- I separate associations from causes, and I write down limitations.
+
+## Get in Touch
+
+- LinkedIn: [link]
+- Email: [address]
+- [Portfolio or dashboard link, if you have one]
 
 ### 🤝 Let's Connect!  
 📫 Reach out: www.linkedin.com/in/zubair-hashmat-a5aa23237 
