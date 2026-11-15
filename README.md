@@ -1,179 +1,80 @@
-# Hi, I'm Zubair Hashmat.
+# Zubair Hashmat - Data Analyst Portfolio
 
-**Junior Data Analyst** | [City, Country] | [Open to opportunities / currently at ...]
+## About
 
-I turn messy data into clear answers. My projects start with a business question, move through careful cleaning and analysis, and end with findings a non-technical reader can act on.
+Hi, I'm Zubair Hashmat! I'm a junior data analyst who enjoys turning messy data into clear answers.
 
-[Optional one line about your background, for example: "[Degree] graduate, [University]. I'm interested in [e-commerce / telecom / economics] analytics."]
+My projects start with a business question, move through careful cleaning and analysis, and end with findings that a non-technical reader can act on. I check my numbers (row counts, reconciliations) before reporting them, and I write down the limitations of every analysis. I work with Python, SQL (PostgreSQL), Excel and Power BI, and I hold the Google Data Analytics Professional Certificate.
 
-## Skills
+## Table of Contents
 
-| Area | Tools |
-|---|---|
-| Data analysis | Python (pandas, NumPy, Matplotlib, SciPy), Excel (pivot tables, profiling) |
-| Databases | SQL, PostgreSQL |
-| Visualisation | Power BI (DAX, data modelling), Matplotlib |
-| Workflow | Google Colab, Jupyter, Git and GitHub |
-| Practices | Business requirements documents, data cleaning logs, documenting limitations |
+- [About](#about)
+- [Portfolio Projects](#portfolio-projects)
+  * SQL, Excel and Power BI
+    + [Customer Churn Analysis](#customer-churn-analysis)
+  * Python
+    + [World Economic Indicators Analysis](#world-economic-indicators-analysis)
+- [Education](#education)
+- [Certificates](#certificates)
+- [Contact](#contact)
 
-## Featured Projects
+## Portfolio Projects
 
-### [Customer Churn Analysis](https://github.com/[username]/telco-customer-churn-sql-powerbi)
-*Excel, PostgreSQL, Power BI*
+### Customer Churn Analysis
 
-Who leaves a telecom provider, and why? Analysed 7,043 customers: 26.5% churned, taking 30.5% of monthly revenue with them. One segment (month-to-month, fiber optic, electronic check) is 19% of customers but 42% of churners. Built a 5-page dashboard covering the customer profile, drivers, stated reasons and priority segments.
+**Code:** [Repository](https://github.com/Zubair61-ui/customer-churn-analysis-sql-powerbi) | [`telco_churn_clean.sql`](https://github.com/Zubair61-ui/customer-churn-analysis-sql-powerbi/blob/main/telco_churn_clean.sql) | [`telco_churn_analysis.sql`](https://github.com/Zubair61-ui/customer-churn-analysis-sql-powerbi/blob/main/telco_churn_analysis.sql)
 
-### [World Economic Indicators Analysis](https://github.com/[username]/world-economic-indicators-analysis)
-*Python (pandas, NumPy, Matplotlib), Google Colab*
+**Goal:** To find out which customers of a telecom provider leave, and why, and which segments the retention team should prioritise.
 
-What do World Bank and UN data say about growth, development and life expectancy across about 190 countries? Found that population growth and GDP growth rarely overlap (only Jordan and Lebanon appear in both top-15 lists), that South Asia and Sub-Saharan Africa gained the most in HDI since 2000 (mostly catch-up from low starting points), and that a small set of overlapping indicators tracks life expectancy.
+**Description:** The dataset covers 7,043 customers with demographic, service, billing and churn information, including the reason each churned customer gave. The project followed a full workflow: a business requirements document, profiling in Excel, loading and cleaning in PostgreSQL (staging table, typed clean table, validation checks, analysis views), and a five-page Power BI dashboard (Overview, Customer profile, Drivers, Reasons, Priority segments).
 
-<!--
-ADD LATER, when the project is finished and published:
+**Skills:** business requirements writing, data profiling, data cleaning and validation, joins and aggregation, CTEs, window functions, views, DAX measures, dashboard design, distinguishing churn rate from share of churners.
 
-### [Olist E-Commerce Analysis](https://github.com/[username]/olist-ecommerce-analysis)
-*[Tools]*
+**Technology:** Excel, PostgreSQL, Power BI (DAX).
 
-[One or two sentences with your real result.]
--->
+**Results:** 26.5% of customers churned, taking 30.5% of monthly revenue with them because churners pay more and leave sooner (18.0 vs 37.6 months of tenure). Month-to-month customers are 88.6% of churners. One segment (month-to-month, fiber optic, electronic check) is 19% of customers but 42% of churners and about 49% of lost monthly revenue. A third of churned customers (33.2%) cited a competitor, and the attitude of the support person was the most common single reason (10.3%).
 
-## How I Work
+### World Economic Indicators Analysis
 
-- I state the business question first, then pick the method.
-- I check my numbers (row counts, reconciliations) before I report them.
-- I separate associations from causes, and I write down limitations.
+**Code:** [Repository](https://github.com/Zubair61-ui/world_economic_indicators) | [`world_economic_indicators_analysis.ipynb`](https://github.com/Zubair61-ui/world_economic_indicators/blob/main/world_economic_indicators_analysis.ipynb)
 
-## Get in Touch
+**Goal:** To understand what World Bank and UN data say about economic growth, human development and life expectancy across about 190 countries.
 
-- LinkedIn: [link]
-- Email: [address]
-- [Portfolio or dashboard link, if you have one]
+**Description:** The project combines two sources (World Bank indicators, 1960-2018, and UN Human Development Index data, 1990-2021). It involved reshaping the HDI table from wide to long format, merging the two sources on country codes, deriving population from GDP, and answering four questions: whether population and GDP growth overlap, which regions gained the most HDI since 2000, what correlates with life expectancy, and what separates high from low income countries.
 
-### 🤝 Let's Connect!  
-📫 Reach out: www.linkedin.com/in/zubair-hashmat-a5aa23237 
+**Skills:** data cleaning, reshaping and merging, growth-rate calculation, correlation analysis, significance testing, robustness checks, data visualisation, documenting limitations.
 
----
-# Hi, I'm [Your Name] 👋 🇵🇰
+**Technology:** Python, pandas, NumPy, Matplotlib, SciPy, Google Colab.
 
-### Data Analyst | SQL · Python · Power BI · Excel | Punjab, Pakistan | Open to Remote
+**Results:** Fast population growth and fast GDP growth rarely coincide: only Jordan and Lebanon appear in both top-15 lists between 1990 and 2018. South Asia and Sub-Saharan Africa gained the most HDI since 2000, but most of that is catch-up from low starting points. Life expectancy is most strongly correlated with infant mortality, internet use, birth rate, GDP per capita and electricity use, which overlap heavily. The same five indicators almost perfectly separate high from low income countries.
 
-> *Turning raw data into clear business decisions — one project at a time.*
+### Olist E-Commerce Analysis
 
----
+**Code:** [Repository](https://github.com/Zubair61-ui/Olist_E-Commerce_Analysis) | [`Data_cleaning_for_all_tables_separately.sql`](https://github.com/Zubair61-ui/Olist_E-Commerce_Analysis/blob/main/Data_cleaning_for_all_tables_separately.sql)
 
-## 🙋‍♂️ About Me
+**Goal:** To understand what drives revenue and customer satisfaction on a Brazilian online marketplace, with delivery performance as the main thread.
 
-- 📍 Based in **Punjab, Pakistan** — working remotely
-- 📊 Skilled in **SQL, Python, Power BI and Excel**
-- 🔨 Currently building **3 end-to-end data analyst portfolio projects**
-- 🎯 Goal: Land my first **remote data analyst role**
-- 🌍 Also pursuing **fully-funded scholarships** (China · Hungary · Japan)
-- 💬 Ask me about **SQL queries, Power BI dashboards, or data cleaning in Python**
-- 📫 Reach me at: **[your.email@gmail.com]**
+**Description:** The dataset covers about 100,000 orders from 2016 to 2018 across nine related tables (orders, items, payments, reviews, customers, products, sellers, categories and geolocation). The project involved loading all tables into PostgreSQL, running the same five cleaning checks on every table (duplicates, missing values, data types, logical errors, inconsistent categories), and building an order-level view so that orders with several items or payments were not counted twice. I then answered five business questions in SQL and built a 3-page Power BI dashboard on top of the SQL views.
 
----
+**Skills:** Multi-table joins, data cleaning and validation, handling join duplication, CTEs and window functions (LAG, RANK), delivery-time and late-order metrics, review analysis, repeat-customer analysis, dashboard design and writing insights.
 
-## 🛠️ Skills & Tools
+**Technology:** PostgreSQL, SQL, Power BI.
 
-**Data Analysis**
+**Results:** Revenue grew from about R$137K in January 2017 to a peak of R$1.17M in November 2017, then stayed flat through August 2018. About 8% of orders were delivered late, and those orders averaged a 2.57 review score compared with 4.30 for on-time orders. Scores fell sharply once delivery took 22 days or more (3.00 on average). Only about 3% of customers ordered more than once, and São Paulo sellers brought in about two-thirds of revenue but had one of the lowest review scores.
 
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+## Education
 
-**Visualization**
+University of Agriculture, Faisalabad:
+Bachelor of Science (BS), Computer Science, 2021 - 2025
+Relevant coursework: Database Systems, Statistics and Probability, Data Structures and Algorithms, Big Data Analytics, Artificial Intelligence
 
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C9BE8?style=for-the-badge&logo=python&logoColor=white)
+## Certificates
 
-**Tools & Platforms**
+Certificates I have completed:
 
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+- [Google Data Analytics Professional Certificate](https://www.credly.com/badges/1eea0b2a-a3d1-422b-a929-483940885aba/public_url)) (December 30, 2025) (Coursera, Google). It covers the full analysis process, from asking questions to sharing results.
 
----
+## Contact
 
-## 📂 Featured Projects
-
-### 📊 [Sales Performance Analysis](https://github.com/yourusername/sales-analysis)
-> **Tools:** SQL · Python · Power BI
-
-Analyzed 10,000+ retail records from the Superstore dataset to identify top-performing regions, seasonal revenue trends, and profit drivers across product categories.
-
-- 🔍 Wrote advanced SQL queries including window functions and running totals
-- 📈 Built 4 Python visualizations using Pandas, Matplotlib and Seaborn
-- 📊 Created an interactive Power BI dashboard with 5 KPI cards and regional filters
-- 💡 Key finding: West region achieved 40% higher profit margin despite similar sales volume to South
-
-**[View Project →](https://github.com/yourusername/sales-analysis)**
-
----
-
-### 🇵🇰 [Pakistan Public Data Analysis](https://github.com/yourusername/pakistan-data-analysis)
-> **Tools:** Python · Power BI · Public Data
-
-Analyzed [your chosen topic — e.g., literacy rates / crop yields / employment] across Pakistan's provinces using official government and World Bank data.
-
-- 📥 Collected and cleaned raw data from PBS and World Bank Pakistan datasets
-- 🗺️ Built province-level map visualization in Power BI
-- 📊 Compared trends across all 4 provinces from 2010–2023
-- 💡 Key finding: [Your most interesting finding in one sentence]
-
-**[View Project →](https://github.com/yourusername/pakistan-data-analysis)**
-
----
-
-### 👥 [HR Attrition Dashboard](https://github.com/yourusername/hr-attrition-dashboard)
-> **Tools:** SQL · Python · Power BI
-
-End-to-end analysis of the IBM HR Analytics dataset to identify key drivers of employee attrition and deliver actionable insights for HR departments.
-
-- 🔍 SQL queries revealed which departments and roles have highest turnover
-- 📊 Python analysis identified overtime as the strongest predictor of attrition (2.4x higher risk)
-- 📈 Built a 3-page Power BI dashboard covering overview, department breakdown, and risk factors
-- 💡 Key finding: Employees earning below the median salary who work overtime have 68% attrition rate
-
-**[View Project →](https://github.com/yourusername/hr-attrition-dashboard)**
-
----
-
-## 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOURUSERNAME&show_icons=true&theme=default&hide_border=true&count_private=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOURUSERNAME&layout=compact&theme=default&hide_border=true" width="48%" />
-</p>
-
----
-
-## 📬 Connect With Me
-
-<p>
-  <a href="https://linkedin.com/in/YOURLINKEDIN">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://kaggle.com/YOURKAGGLE">
-    <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
-  </a>
-  <a href="mailto:your.email@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://twitter.com/YOURTWITTER">
-    <img src="https://img.shields.io/badge/X_(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white" />
-  </a>
-</p>
-
----
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOURUSERNAME&color=blue&style=flat-square&label=Profile+Views" />
-</p>
-
-<p align="center">
-  <i>"Data is the closest thing we have to a crystal ball."</i>
-</p>
+- LinkedIn: www.linkedin.com/in/zubair-hashmat
+- Email: hashmatzubair32@gmail.com
