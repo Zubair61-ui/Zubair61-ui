@@ -12,6 +12,7 @@ My projects start with a business question, move through careful cleaning and an
 - [Portfolio Projects](#portfolio-projects)
   * SQL, Excel and Power BI
     + [Customer Churn Analysis](#customer-churn-analysis)
+    + [Olist E-Commerce Analysis](#olist-e-commerce-analysis)
   * Python
     + [World Economic Indicators Analysis](#world-economic-indicators-analysis)
 - [Education](#education)
@@ -66,13 +67,15 @@ My projects start with a business question, move through careful cleaning and an
 
 University of Agriculture, Faisalabad:
 Bachelor of Science (BS), Computer Science, 2021 - 2025
-Relevant coursework: Database Systems, Statistics and Probability, Data Structures and Algorithms, Big Data Analytics, Artificial Intelligence
+
+- Relevant coursework: Database Systems, Statistics and Probability, Data Structures and Algorithms, Big Data Analytics, Artificial Intelligence
 
 ## Certificates
 
 Certificates I have completed:
 
-- [Google Data Analytics Professional Certificate](https://www.credly.com/badges/1eea0b2a-a3d1-422b-a929-483940885aba/public_url)) (December 30, 2025) (Coursera, Google). It covers the full analysis process, from asking questions to sharing results.
+- [Google Data Analytics Professional Certificate](https://www.credly.com/badges/1eea0b2a-a3d1-422b-a929-483940885aba/public_url) (Coursera, Google).
+-  It covers the full analysis process, from asking questions to sharing results.
 
 ## Contact
 
